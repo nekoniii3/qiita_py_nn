@@ -1,7 +1,8 @@
 ''' Wrapper for Qiita API v2
 
-created by @petitviolet
-https://petitviolet.mit-license.org/
+created by @nekoniii3
+
+fork from https://github.com/petitviolet/qiita_py
 '''
 
 import os
@@ -15,7 +16,7 @@ setup(
     author=__author__,
     version=__version__,
     license=__license__,
-    author_email='mail@petitviolet.net',
+    author_email='nekonii3.dev@gmail.com',
     url='https://github.com/petitviolet/qiita_py',
     description='Python Wrapper for Qiita API v2',
     long_description=long_desc,
