@@ -7,7 +7,7 @@ fork from https://github.com/petitviolet/qiita_py
 
 import os
 from setuptools import setup, find_packages
-from qiita_v2 import (__author__, __license__, __version__, __name__)
+from qiita_nn import (__author__, __license__, __version__, __name__)
 
 long_desc = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
 
