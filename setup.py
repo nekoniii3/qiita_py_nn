@@ -17,7 +17,7 @@ setup(
     version=__version__,
     license=__license__,
     author_email='nekonii3.dev@gmail.com',
-    url='https://github.com/petitviolet/qiita_py',
+    url='https://github.com/nekoniii3/qiita_py_nn',
     description='Python Wrapper for Qiita API v2',
     long_description=long_desc,
     platforms='any',

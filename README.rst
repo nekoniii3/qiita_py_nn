@@ -1,15 +1,12 @@
 Python Wrapper for Qiita API v2
 ===============================
 
-.. image:: https://badge.fury.io/py/qiita_v2.svg
-    :target: https://badge.fury.io/py/qiita_v2
-
-Api document: http://qiita.com/api/v2/docs
+fork from qiita_v2(https://github.com/petitviolet/qiita_py)
 
 Version
 -------
 
-0.2.0(2018/11/07)
+1.0(2025/04/01)
 
 Setup
 -----
@@ -17,7 +14,7 @@ Setup
 `qiita_v2: Python Package Index <https://pypi.python.org/pypi/qiita_v2>`_
 ::
 
-  pip install qiita_v2
+  pip install qiita_nn
 
 How to Use
 ----------
