@@ -37,6 +37,7 @@ Caution
 2025/4/1 以下のメソッドに対応しています。
 
 ::
+
   get_item
   get_user
   list_user_items
