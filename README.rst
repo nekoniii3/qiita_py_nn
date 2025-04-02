@@ -1,7 +1,9 @@
 Python Wrapper for Qiita API v2
 ===============================
 
-fork from qiita_v2(https://github.com/petitviolet/qiita_py)
+Python wrapper for Qiita API.
+
+Fork from qiita_v2(https://github.com/petitviolet/qiita_py).
 
 Version
 -------
@@ -11,10 +13,10 @@ Version
 Setup
 -----
 
-`qiita_v2: Python Package Index <https://pypi.python.org/pypi/`_
+`qiita_v2: Python Package Index <https://pypi.python.org/pypi/qiita_py_nn>`_
 ::
 
-  pip install qiita_nn
+  pip install qiita_py_nn
 
 How to Use
 ----------
@@ -24,17 +26,19 @@ Simple usage
 
 ::
 
-  from qiita_nn.client2 import QiitaClient2
+  from qiita_py_nn.client2 import QiitaClient2
 
-  client = QiitaClient(access_token=<access_token>)
-  res = client.get_user('petitviolet')
-  res.to_json()
-  # => jsonified contents
+  client = QiitaClient2(access_token=<access_token>)
+
+  user = client.get_user("nekoniii3")
+
+  print(user)
+  # QiitaUser(description= ... , website_url='')
 
 Caution
 ----------
 
-2025/4/1 以下のメソッドに対応しています。
+Version1.0 The following methods are supported:
 
 ::
 
@@ -51,9 +55,10 @@ Caution
   list_user_followers
   list_item_stockers
 
-projects、templatesなどには対応しておりません。
-今後対応したいと思います。
+Reference
+----------
 
+`Qiita Article <https://qiita.com/nekoniii3/items/1610ec2b03cb9cd38f44/>`_
 
 Lisence
 -------
